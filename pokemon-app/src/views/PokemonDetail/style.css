@@ -1,0 +1,24 @@
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
+.detail-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: 100px;
+}
+
+.detail-grid-items {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.return-button {
+    position: absolute;
+    bottom: 0;
+    margin: 20px 20px;
+}
